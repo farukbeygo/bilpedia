@@ -1,5 +1,4 @@
-console.clear();
-console.log('lsakdfalskjdflnksd');
+// Many thanks to Szenia Zadvornykh for this code, you can access it from https://codepen.io/zadvorsky/pen/xxwbBQV
 
 const config = {
   src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/175711/open-peeps-sheet.png',
