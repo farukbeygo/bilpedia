@@ -1,0 +1,66 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.big-heading {
+  text-align: center;
+  margin-top: 15vh;
+  margin-bottom: 0%;
+  transform: translateY(-50%);
+}
+
+.sub-heading {
+  text-align: center;
+  margin-top: 0%;
+}
+
+.masthead {
+  margin-bottom: 2rem;
+}
+
+#canvas {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: blur(10px);
+  opacity: 0.7;
+  
+}
+
+#page {
+  display: block;
+  padding-bottom: 225px;
+}
+
+
+.content {
+  margin-top: 7.5cm;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 0;
+  height: 100%;
+  overflow: auto;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+}
+
+.photo {
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.photo img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Bilpedia</title>
+  <link rel="stylesheet" href="./style.css">
+
+  <!--extra imports-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <div id="page">
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+      <header class="masthead">
+        <div>
+          <h1 class="big-heading" style="font-family: Arial, sans-serif; font-size: 80px; font-weight: bold;">Bilpedia</h1>
+          <h4 class="sub-heading">Welcome To Best Page of the Bilkent!!</h4>
+        </div>
+      </header>
+    </div>
+  </div>
+
+  <!-- partial:index.partial.html -->
+  <canvas id="canvas"></canvas>
+
+  <!--content part-->
+  <div class="content">
+    <div>
+      <section class="main">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam elementum pulvinar mollis. Maecenas sed tortor ipsum. Sed tincidunt bibendum justo in porta. Nunc finibus nisi id orci pellentesque, nec lobortis ipsum dignissim. Cras laoreet volutpat metus ac laoreet. Sed varius sodales enim ut tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+        Mauris commodo nulla eget commodo posuere. Proin viverra aliquam sapien ac imperdiet. Fusce viverra dolor sit amet libero scelerisque posuere sed nec justo. Integer mollis blandit eros a egestas. Cras eget eleifend risus. Pellentesque in sodales orci, pretium bibendum lectus. Pellentesque a nibh massa.
+        
+        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce nibh est, pellentesque eu tincidunt ultrices, pretium sit amet felis. Nulla eros risus, euismod in leo ut, bibendum pellentesque turpis. Curabitur dignissim, lorem id faucibus vestibulum, lectus libero fermentum orci, vel pretium nisl ex eu augue. Cras condimentum ultricies augue at ultrices. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam finibus tortor dolor, ut elementum diam feugiat laoreet. In sodales velit in ante sodales, a consequat lacus eleifend. Proin vitae justo vel ligula efficitur elementum vel et nunc.
+        
+        Cras molestie iaculis vulputate. Phasellus rutrum at odio et commodo. Nulla in lectus lacus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent erat dui, sollicitudin a neque sit amet, hendrerit cursus tortor. Proin rhoncus, elit ac consectetur sagittis, lorem magna iaculis nulla, sit amet suscipit mauris justo aliquet lacus. Integer eget cursus enim. Vivamus tellus est, placerat scelerisque fringilla quis, consequat quis quam. Morbi enim libero, blandit eget nunc et, consequat volutpat est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel ipsum at leo efficitur rutrum. Etiam vestibulum, ante in porttitor rutrum, sapien nulla porttitor purus, eu interdum turpis odio ac nunc. Vestibulum eu dui eu enim ornare dapibus quis tincidunt erat.
+        
+        In sit amet fermentum dui. Duis non erat nec nunc pulvinar consequat. Nam vel pretium risus. Proin ac mi interdum, tincidunt nibh nec, molestie nunc. Etiam pulvinar a nibh eu rhoncus. Ut purus erat, rutrum a lobortis eu, sodales sed neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce in auctor enim.
+      </p>
+
+
+      <div class="row">
+        <div class="col-md-3">
+          <a href="cat.png" data-toggle="lightbox" data-gallery="gallery">
+            <img src="cat.png" class="img-fluid rounded mb-3">
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="cat.png" data-toggle="lightbox" data-gallery="gallery">
+            <img src="cat.png" class="img-fluid rounded mb-3">
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="cat.png" data-toggle="lightbox" data-gallery="gallery">
+            <img src="cat.png" class="img-fluid rounded mb-3">
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="cat.png" data-toggle="lightbox" data-gallery="gallery">
+            <img src="cat.png" class="img-fluid rounded mb-3">
+          </a>
+        </div>
+      </div>
+      
+
+
+      </section>
+    </div>
+  </div>
+
+
+  <!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js'></script><script  src="./script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+  
+  <script>
+  $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+  });
+  </script>
+
+</body>
+</html>
