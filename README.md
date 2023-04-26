@@ -4,7 +4,7 @@ Welcome to the Bilkent University Species Encyclopedia, a website that serves as
 
 ## Getting Started
 
-To get started, simply visit our website at [http://www.bilpedia.com](http://www.bilpedia.com). The website is easy to use, with a search bar on the homepage where you can enter the name of the species you're looking for. Alternatively, you can browse the different categories of species listed on the website.
+To get started, simply visit our website at [farukbeygo.github.io/bilpedia/](farukbeygo.github.io/bilpedia/). The website is easy to use, with a search bar on the homepage where you can enter the name of the species you're looking for. Alternatively, you can browse the different categories of species listed on the website.
 
 ## Contributing
 
